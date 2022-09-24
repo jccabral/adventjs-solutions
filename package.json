@@ -1,0 +1,16 @@
+{
+  "name": "adventjs-solutions",
+  "scripts": {
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.23.4",
+    "standard": "^17.0.0",
+    "vitest": "^0.23.4"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
